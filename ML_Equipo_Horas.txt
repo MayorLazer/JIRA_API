@@ -1,0 +1,17 @@
+IE_Subtask + Everything
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf("issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas")
+
+IE_Subtask_Team_Solved
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf(%22issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas%22)%20AND%20filter%20%3D%20%22Status%20Solved%22
+
+IE_Subtask_Desa_Solved
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf(%22issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas%22)%20AND%20filter%20%3D%20%22Status%20Solved%22%20AND%20%22Tipo%20de%20Tarea%20GW%22%20%3D%20%22Desarrollo%22
+
+IE_Subtask_Analisis_Solved
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf(%22issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas%22)%20AND%20filter%20%3D%20%22Status%20Solved%22%20AND%20%22Tipo%20de%20Tarea%20GW%22%20%3D%20%22An%C3%A1lisis%20%E2%80%93%20Funcional%20%22
+
+IE_Subtask_TST-Design_Solved
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf(%22issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas%22)%20AND%20filter%20%3D%20%22Status%20Solved%22%20AND%20%22Tipo%20de%20Tarea%20GW%22%20%3D%20%22Testing%20%E2%80%93%20Dise%C3%B1o%22
+
+IE_Subtask_TST-EXEC_Solved
+https://signe.gruposancorseguros.com/rest/api/latest/search?jql=issuetype%20%3D%20sub-task%20AND%20project%20%3D%20NEOSSA%20AND%20issueFunction%20in%20subtasksOf(%22issuetype%20%3D%20story%20and%20component%20%3D%20integracionesExternas%22)%20AND%20filter%20%3D%20%22Status%20Solved%22%20AND%20%22Tipo%20de%20Tarea%20GW%22%20%3D%20%22Testing%20%E2%80%93%20Ejecuci%C3%B3n%22
